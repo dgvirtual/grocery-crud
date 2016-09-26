@@ -4,9 +4,9 @@ $lang['list_add'] = 'Pridėti';
 $lang['list_actions'] = 'Veiksmai';
 $lang['list_page'] = 'Puslapis';
 $lang['list_paging_of'] = 'iš';
-$lang['list_displaying'] = 'Rodoma nuo {start} iki {end} iš {results} užrašų';
-$lang['list_filtered_from'] = '(išfiltruota iš {total_results} užrašų)';
-$lang['list_show_entries'] = 'Rodyti {paging} užrašų';
+$lang['list_displaying'] = 'Rodoma nuo {start} iki {end} iš {results} įrašų';
+$lang['list_filtered_from'] = '(išfiltruota iš {total_results} įrašų)';
+$lang['list_show_entries'] = 'Rodyti {paging} įrašų';
 $lang['list_no_items'] = 'Nera įrašų atvaizdavimui';
 $lang['list_zero_entries'] = 'Rodoma 0 įrašų, nes yra 0 įrašų.';
 $lang['list_search'] = 'Paieška';
@@ -15,16 +15,16 @@ $lang['list_clear_filtering'] = 'Valyti filtrą';
 $lang['list_delete'] = 'Trinti';
 $lang['list_edit'] = 'Redaguoti';
 $lang['list_paging_first'] = 'Pirmas';
-$lang['list_paging_previous'] = 'Prieštai esantis';
-$lang['list_paging_next'] = 'Sekantis';
+$lang['list_paging_previous'] = 'Ankstesnis';
+$lang['list_paging_next'] = 'Kitas';
 $lang['list_paging_last'] = 'Paskutinis';
-$lang['list_loading'] = 'Kraunama...';
+$lang['list_loading'] = 'Įkeliama...';
 
 $lang['form_edit'] = 'Redaguoti';
 $lang['form_back_to_list'] = 'Atgal į sąrašą';
 $lang['form_update_changes'] = 'Saugoti pakeitimus';
 $lang['form_cancel'] = 'Atšaukti';
-$lang['form_update_loading'] = 'Kraunama, informacijos atnaujinimas...';
+$lang['form_update_loading'] = 'Įkeliama, informacijos atnaujinimas...';
 $lang['update_success_message'] = 'Info sekmingai atnaujinta.';
 $lang['form_go_back_to_list'] = 'Grįžti prie sąrašo';
 
@@ -32,14 +32,14 @@ $lang['form_add'] = 'Pridėti';
 $lang['insert_success_message'] = 'Info sekmingai įrašyta į Duomenų bazę.';
 $lang['form_or'] = 'arba';
 $lang['form_save'] = 'saugoti';
-$lang['form_insert_loading'] = 'Kraunama, info saugoma...';
+$lang['form_insert_loading'] = 'Įkeliama, info saugoma...';
 
-$lang['form_upload_a_file'] = 'Atsiųsti bylą';
+$lang['form_upload_a_file'] = 'Atsiųsti failą';
 $lang['form_upload_delete'] = 'Trinti';
 $lang['form_button_clear'] = 'Valyti';
 
 $lang['delete_success_message'] = 'Info išvalyta iš duomenų bazės.';
-$lang['delete_error_message'] = 'Info neišvalyta is Duomenų bazės.';
+$lang['delete_error_message'] = 'Info neišvalyta is duomenų bazės.';
 
 /* Javascript messages */
 $lang['alert_add_form'] = 'Įrašyta info gali būti neišsaugota.\\nNorite grįžti prie sąrašo?';
@@ -63,17 +63,17 @@ $lang['form_update_and_go_back']= 'Saugoti pakeitimus ir grįžti į sąrašą';
 $lang['string_delete_file'] = 'Bylos šalinimas';
 $lang['string_progress'] = 'Progresas: ';
 $lang['error_on_uploading'] = 'Ivyko klaida, byla neužkrauta.';
-$lang['message_prompt_delete_file'] = 'Ar Jus tikrai norite ištrinti šia bylą?';
+$lang['message_prompt_delete_file'] = 'Ar tikrai norite ištrinti šį failą?';
 
-$lang['error_max_number_of_files'] = 'Vienu karti galite užkrauti tik viena bylą.';
-$lang['error_accept_file_types'] = 'Negalima užkrauti bylos, dėl bylos fotmato.';
-$lang['error_max_file_size'] = 'Byla labai didelė, negalima jos užgrauti. Dydis: {max_file_size}.';
-$lang['error_min_file_size'] = 'Negalima užkrauti tuščios bylos.';
+$lang['error_max_number_of_files'] = 'Vienu metu galite įkelti tik viena failą.';
+$lang['error_accept_file_types'] = 'Negalima įkelti failo dėl jo formato.';
+$lang['error_max_file_size'] = 'Failas labai didelis, negalima jos įkelti. Maksimalus dydis: {max_file_size}.';
+$lang['error_min_file_size'] = 'Negalima įkelti tuščio failo.';
 
 /* Added in version 1.3.1 */
 $lang['list_export'] = 'Eksportuoti';
 $lang['list_print'] = 'Spausdinti';
-$lang['minimize_maximize'] = 'Sumažinti/Padidinti';
+$lang['minimize_maximize'] = 'Sumažinti / padidinti';
 
 /* Added in version 1.4 */
 $lang['list_view'] = 'Pažiūrėti';
@@ -81,13 +81,13 @@ $lang['list_view'] = 'Pažiūrėti';
 /* Added in version 1.5.1 */
 $lang['ui_day'] = 'dd';
 $lang['ui_month'] = 'mm';
-$lang['ui_year'] = 'yyyy';
+$lang['ui_year'] = 'mmmm';
 
 	/* Added in version 1.5.2 */
-	$lang['list_more'] = 'More';
+	$lang['list_more'] = 'Daugiau';
 
 
 
 	/* Added in version 1.5.6 */
-	$lang['list_search_column'] = 'Search {column_name}';
+	$lang['list_search_column'] = 'Ieškoti {column_name}';
 
